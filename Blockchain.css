@@ -5,7 +5,7 @@
 .Blockchain-Development-services-header-col1 h1{
     width: 100%;
     font-family: 'Source Sans Pro',sans-serif;
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 600;
     line-height: 70.39px;
     text-align: left;
@@ -55,11 +55,9 @@
 @media screen and (max-width: 767px) {
     .Blockchain-Development-services-maindiv{
         margin-top: 100px;
-        width: 100% !important;
         display: flex;
-        align-items: center;
         justify-content: center;
-        flex-direction: column;
+        align-items: center;
     }
     
     .Blockchain-discoverservices {
@@ -67,13 +65,15 @@
         font-weight: 700;
         line-height: 20.11px;
         text-align: center;
-        margin: 20px auto !important;
+        margin: 20px auto;
+        display: block;
+        margin-bottom: 30px !important;
     }
     .Blockchain-Development-header{
         width: 100%;
     }
     .Blockchain-Development-services-header-col1 h1{
-        font-size: 34px;
+        font-size: 32px;
         font-weight: 600;
         line-height: 45px;
         text-align: center;
@@ -91,5 +91,277 @@
         line-height: 22px;
         text-align: left;
         margin-top: 30px;
+    }
+}
+
+
+
+/*section 2============================================*/
+.Services-We-Offer-bgcolor{
+     background-image: url('./Block-chain-Images/Rectangle 3463830.png');
+     background-repeat: no-repeat;
+     margin-top: 100px;
+    /* height: 324px !important; */
+    /* position: relative !important;
+    z-index: -10;  */
+}
+
+
+.Services-We-Offer-maindiv{
+    width: 100%;
+    
+}
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-image img {
+    max-width: 100%;
+    height: auto;
+}
+.Services-We-Offer-border{
+    gap: 0px;
+    border-radius: 6px 0px 0px 0px;
+    border: 0.4px 0px 0px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 0.4px solid #969399;
+    padding: 15px;
+    border-radius: 6px;
+    height: auto;
+
+}
+.center-button {
+    text-align: center;
+}
+.Services-We-Offer-button{
+    background: linear-gradient(90deg, #248B97 0%, #2CA068 100%);
+    border-radius: 8px;
+    border: none;
+    width: 160px;
+    height: 42px;
+    top: 680px;
+    left: 519px;
+    padding: 0px 21px 0px 21px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.63px;
+    color: #FFFFFF;
+}
+
+.Services-We-Offer-header{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60.34px;
+    text-align: left;
+    width: 100%;
+    padding-top: 30px;
+}
+.Services-We-Offer-header span{
+    color: #2CA068;
+}
+.Services-We-Offer-heading{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25.14px;
+    width: 100%;
+    margin-top: 10px;
+}
+.Services-We-Offer-paragrapgh{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #676968;
+    margin-top: 15px;
+}
+.Services-We-Offer-cards1{
+    margin-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.Services-We-Offer-cards2{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.Services-We-Offer-button i{
+    display: none;
+}
+
+@media screen and (max-width: 767px){
+    .Services-We-Offer-bgcolor{
+        background-color: transparent;
+    }
+    .Services-We-Offer-maindiv{
+        width: 100%;
+        /* background-color: #2CA068; */
+        margin-top: 100px;
+    }
+    .Services-We-Offer-header{
+        font-family: 'Source Sans Pro',sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: left;
+        width: 100%;
+        padding-top: 0px;
+    }
+    .Services-We-Offer-header img{
+        width: 28px;
+    }
+    .Services-We-Offer-cards1{
+        margin-top: 25px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .Services-We-Offer-cards2{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .Services-We-Offer-heading{
+        font-family: 'Source Sans Pro',sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .Services-We-Offer-paragrapgh{
+        font-family: 'Source Sans Pro',sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        color: #676968;
+        margin-top: 10px;
+    }
+    .Services-We-Offer-button{
+        background: linear-gradient(90deg, #248B97 0%, #2CA068 100%);
+        border-radius: 8px;
+        border: none;
+        width: 170px;
+        height: 42px;
+        top: 680px;
+        left: 519px;
+        padding: 0px 21px 0px 21px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: 'Source Sans Pro',sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22.63px;
+        color: #FFFFFF;
+        margin-top: 20px;
+    }
+    .Services-We-Offer-button i{
+        display: inline-block;
+    }
+}
+
+/*section 3============================================================================*/
+.Why-Choose-Us-maindiv{
+    width: 100%;
+    margin-top: 100px;
+}
+.Why-Choose-Us-header{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60.34px;
+    text-align: left;
+}
+.Why-Choose-Us-header span{
+    color: #2CA068;
+}
+.Why-Choose-Us-paragraph{
+    width: 100%;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #676968;
+    margin-top: 30px;
+}
+.Why-Choose-project-bg{
+    background: #C1F0D980;
+    border-radius: 8px;
+    padding: 17px;
+}
+.Why-Choose-project-bg h1{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35.2px;
+    text-align: center;
+}
+.Why-Choose-project-bg p{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20.11px;
+    text-align: center;
+    color: #414042;
+}
+.Why-Choose-Us-projects{
+    margin-top: 40px;
+}
+.Why-Choose-Us-mobileprojects{
+    display: none;
+}
+@media screen and (max-width: 767px){
+    .Why-Choose-Us-maindiv{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .Why-Choose-Us-projects{
+        display: none;
+    }
+    .Why-Choose-Us-mobileprojects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin: auto;
+        margin-top: 25px;
+        padding: 10px;
+    }
+    .Why-Choose-project-bg h1{
+        font-family: 'Source Sans Pro',sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 30.17px;
+        text-align: center;
+    }
+    .Why-Choose-project-bg p{
+        font-family: 'Source Sans Pro',sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 15.08px;
+        text-align: center;
+    }
+    .Why-Choose-project-bg{
+        padding: 12px;
+    }
+    .Why-Choose-Us-header{
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40.22px;
+        text-align: left;
+    }
+    .Why-Choose-Us-header img{
+        width: 28px;
+    }
+    .Why-Choose-Us-paragraph{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        margin-top: 15px;
     }
 }
