@@ -1,0 +1,95 @@
+.Blockchain-Development-services-maindiv{
+    margin-top: 100px;
+    width: 100%;
+}
+.Blockchain-Development-services-header-col1 h1{
+    width: 100%;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 70.39px;
+    text-align: left;
+}
+.Blockchain-cutting-edge{
+    width: 100%;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25.14px;
+    text-align: left;
+    color: #414042;
+    margin-top: 40px;
+}
+.Blockchain-develop-scalable{
+    width: 100%;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #676968;
+    margin-top: 18px;
+}
+.Blockchain-discoverservices{
+    background: linear-gradient(90deg, #248B97 0%, #2CA068 100%);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.63px;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 8px 14px 8px 14px;
+    gap: 2px;
+    opacity: 0px;
+    margin-top: 58px;
+}
+.Blockchain-Development-header{
+    width: 100%;
+}
+.Blockchain-Development-content{
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .Blockchain-Development-services-maindiv{
+        margin-top: 100px;
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .Blockchain-discoverservices {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20.11px;
+        text-align: center;
+        margin: 20px auto !important;
+    }
+    .Blockchain-Development-header{
+        width: 100%;
+    }
+    .Blockchain-Development-services-header-col1 h1{
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 45px;
+        text-align: center;
+    }
+    .Blockchain-cutting-edge{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 36px;
+    }
+    .Blockchain-develop-scalable{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        margin-top: 30px;
+    }
+}
